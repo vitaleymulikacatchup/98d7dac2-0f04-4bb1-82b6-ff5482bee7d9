@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -11,9 +11,9 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import FaqBase from '@/components/sections/faq/FaqBase';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { Award, Bell, Building, Calendar, ChefHat, Crown, Dumbbell, Flower2, Heart, HelpCircle, Home, Mail, MessageSquare, Sparkles, Star } from "lucide-react";
+import { Award, Bell, Building, Calendar, ChefHat, Crown, Dumbbell, Flower2, Heart, HelpCircle, Mail, MessageSquare, Sparkles, Star } from "lucide-react";
 
-export default function Home() {
+export default function Page() {
   return (
     <ThemeProvider
       defaultButtonVariant="text-stagger"
@@ -102,7 +102,7 @@ export default function Home() {
             {
               id: "standard",
               badge: "Classic Comfort",
-              badgeIcon: Home,
+              badgeIcon: Building,
               price: "$299/night",
               subtitle: "Perfect for business travelers",
               buttons: [
